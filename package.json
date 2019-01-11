@@ -1,0 +1,24 @@
+{
+  "name": "express-knex-rest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "migrate:schema:create": "knex-migrate up --only 20181215115251_schema.js && npm run seed && npm run migrate:users",
+    "migrate:schema:drop": "knex-migrate down --to 0",
+    "migrate:users": "knex-migrate up --only 20181229234051_passwords.js",
+    "seed": "knex seed:run"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.2",
+    "jsonwebtoken": "^8.4.0",
+    "knex": "^0.13.0",
+    "mysql": "^2.13.0",
+    "nodemon": "^1.18.9"
+  }
+}

@@ -1,0 +1,14 @@
+<xml>
+    <action>
+        <dateTime>2019-01-03 10:30:00</dateTime>  
+        <eventId>3288739000008884500</eventId>   
+        <contact></contact>     
+        <name>Beto Da Silva Cordeiro</name>    
+        <createdTime>01/02/2019 03:50:08 pm</createdTime> 
+        <location>SDS-COIMBRA</location>    
+        <createdName>Super Admin</createdName>   
+        <cmdEval>updateStatusFromZoho</cmdEval>    
+        <email>gilberto.cordeiro.71@hotmail.com</email>    
+        <status>SMS Enviado</status>
+    </action>
+</xml>
